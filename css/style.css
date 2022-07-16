@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner{
+    align-items: center;
+    background-color: #FFD2F0;
+    background-image: url(../img/bg-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+}
+
+h1, body{
+    margin: 0;
+}
+
+.banner h1, .banner p{
+    color: black;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.botao {
+    background-color: white;
+    color: #7E4598;
+    text-transform: uppercase;
+    padding: 0.6rem 1.5rem;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #7E459B;
+    border-radius: 48px;
+}
+
+/* descrição */
+
+h2 {
+    color: #c4c4c4;
+    font-size: 18;
+    margin: 12px 0;
+}
+
+.descricao, .habilidades {
+    width: 40%;
+    display: inline-block;
+}
+
+.sobre {
+    padding: 70px;
+}
+
+.habilidades {
+    margin-left: 70px;
+    line-height: 1.7;
+}
+
+footer {
+    background-color: #7E459B;
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 0;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: white;
+}
